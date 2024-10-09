@@ -12,11 +12,7 @@ This repository contains implementations of various Data Structures and Algorith
 ## Table of Contents
 
 - [Installation](#installation)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 

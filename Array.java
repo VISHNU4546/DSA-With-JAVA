@@ -1,6 +1,6 @@
 import java.util.*;
 public class Array {
-   /*  public static void Binary_Search(int arr[],int key){
+    public static void Binary_Search(int arr[],int key){
    int s = 0;
    int e = 5;
    
@@ -18,7 +18,7 @@ public class Array {
      }
    }
    System.out.println("-1");
-    }*/
+    }
 
     public static void subArray_Sum(int n[]){
      // by prefix sum  array
@@ -105,9 +105,9 @@ public class Array {
             currBound = N[i];
             rightBound[i] = Math.max(currBound,rightBound[i+1]);
       }
-  // for(int i = 0;i<rightBound.length;i++ ){
-  //   System.out.print(rightBound[i] + " ");
-  // }
+  for(int i = 0;i<rightBound.length;i++ ){
+    System.out.print(rightBound[i] + " ");
+  }
 int totalWater = 0;
   for(int i = 0;i<N.length-1;i++){
         int leftPoint = leftBound[i];
